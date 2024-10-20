@@ -1,0 +1,343 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Lato", sans-serif;
+}
+
+.container {
+    width: 100%;
+    height: 150%;
+    /* border: 1px solid red; */
+}
+
+.section-one {
+    background-image: url('TP-images/TP-background-image.jpg');
+    height: 80vh;
+}
+
+.navigation {
+    width: 100%;
+    height: 2rem;
+}
+
+.navigation ul {
+    display: flex;
+    justify-content: right;
+    padding-right: 10rem;
+    padding-top: 1rem;
+}
+
+.navigation ul li {
+    height: 1rem;
+    width: 8rem;
+    list-style: none;
+}
+
+.navigation ul li a {
+    gap: 5rem;
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.2rem;
+}
+
+.deco {
+    display: flex;
+    width: 100%;
+}
+
+.deco-intro {
+    width: 50%;
+}
+
+.deco-image {
+    width: 50%;
+    position: absolute;
+}
+
+.deco-image img {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    top: -9rem;
+    right: -45rem;
+    box-shadow: 1px;
+}
+
+.deco-intro h1 {
+    text-align: left;
+    color: #fff;
+    width: 80%;
+    padding-left: 10rem;
+    gap: 1rem;
+    font-size: 3rem;
+    padding-top: 5rem;
+}
+
+.deco-intro p {
+    text-align: left;
+    font-size: 0.9rem;
+    width: 70%;
+    padding-left: 10rem;
+    padding-top: 1rem;
+    color: #fff;
+}
+
+.button-one {
+    padding: 0.8rem 2.5rem;
+    margin-top: 1rem;
+    background-color: yellow;
+    margin-left: 10rem;
+    border-radius: 50px;
+    outline: none;
+    border: none;
+    color: #000;
+}
+
+.button-two {
+    padding: 0.8rem 2.5rem;
+    margin-top: 1rem;
+    background-color: transparent;
+    margin-left: 1rem;
+    border-radius: 50px;
+    outline: none;
+    border: 1px solid #fff;
+    color: #fff;
+}
+
+.section-two {
+    display: flex;
+    padding-top: 8rem;
+    height: 30rem;
+}
+
+.image-one img {
+    width: 105%;
+    position: relative;
+    top: -50%;
+    /* border: 1px solid red; */
+    height: 110%;
+}
+
+.image-one {
+    text-align: center;
+    height: 15rem;
+    /* border: 1px solid red; */
+    position: absolute;
+    top: 105%;
+    left: 35%;
+    width: 15rem;
+    /* position: relative; */
+}
+
+.image-one:hover {
+    background: #e9e6e6;
+    border-radius: 15px;
+    transition: ease-in 0s;
+    /* animation: slideIn 0.5s ease forwards; */
+}
+
+.image-two:hover {
+    background: #e9e6e6;
+    border-radius: 15px;
+    transition: ease-in 0s;
+    /* animation: slideIn 0.5s ease forwards; */
+}
+
+.image-three:hover {
+    background: #e9e6e6;
+    border-radius: 15px;
+    transition: ease-in 0s;
+    /* animation: slideIn 0.5s ease forwards; */
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateY(100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.image-one div {
+    position: relative;
+    top: -50%;
+    /* border: 1px solid pink; */
+    font-size: 1.2rem;
+}
+
+.image-two div {
+    position: relative;
+    top: -50%;
+    /* border: 1px solid pink; */
+    font-size: 1.2rem;
+}
+
+.image-three div {
+    position: relative;
+    top: -30%;
+    /* border: 1px solid pink; */
+    font-size: 1.2rem;
+}
+
+.image-two {
+    text-align: center;
+    height: 15rem;
+    /* border: 1px solid red; */
+    position: absolute;
+    width: 15rem;
+    top: 105%;
+    left: 55%;
+}
+
+.image-two img {
+    width: 105%;
+    position: relative;
+    top: -55%;
+    /* border: 1px solid red; */
+    height: 110%;
+}
+
+.image-three {
+    text-align: center;
+    height: 15rem;
+    /* border: 1px solid red; */
+    position: absolute;
+    width: 15rem;
+    top: 105%;
+    left: 75%;
+}
+
+.image-three img {
+    width: 100%;
+    position: relative;
+    top: -35%;
+    /* border: 1px solid red; */
+    height: 90%;
+}
+
+.image-info h2 {
+    text-align: left;
+    color: #000;
+    width: 40%;
+    padding-left: 10rem;
+    gap: 1rem;
+    font-size: 2.8rem;
+}
+
+.image-info p {
+    text-align: left;
+    width: 30%;
+    color: #000;
+    width: 35%;
+    padding-left: 10rem;
+    gap: 1rem;
+    font-size: .8rem;
+    padding-top: 1rem;
+}
+
+.button-three {
+    padding: 0.8rem 2.5rem;
+    margin-top: 1rem;
+    background-color: #000;
+    margin-left: 10rem;
+    border-radius: 50px;
+    outline: none;
+    border: none;
+    color: #fff;
+}
+
+.image-one:hover i {
+    position: relative;
+    top: -35%;
+    display: block;
+    transition: ease-in .5s;
+}
+
+.image-one i {
+    display: none;
+}
+
+.image-two i {
+    display: none;
+}
+
+.image-two:hover i {
+    position: relative;
+    top: -35%;
+    display: block;
+    transition: ease-in .5s;
+}
+
+.image-three i {
+    display: none;
+}
+
+.image-three:hover i {
+    position: relative;
+    top: -15%;
+    display: block;
+    transition: .3s;
+}
+
+@media (max-width: 767.98px) {
+    .section-one {
+        height: 60vh;
+    }
+    .deco-intro {
+        width: 100%;
+    }
+    .deco-intro h1 {
+        text-align: center;
+        color: #fff;
+        width: 100%;
+        padding-left: 0rem;
+        padding-top: 4rem;
+    }
+    .deco-intro p {
+        padding-left: 0rem;
+        text-align: center;
+        width: 100%;
+    }
+    .deco-image {
+        display: none;
+    }
+    .navigation {
+        display: none;
+    }
+    .image-one {
+        top: 105%;
+        left: 20%;
+    }
+    .image-two {
+        top: 150%;
+        left: 20%;
+    }
+    .image-three {
+        top: 200%;
+        left: 20%;
+    }
+    .image-info h2 {
+        width: 100%;
+        padding-left: 1rem;
+    }
+    .image-info p {
+        width: 100%;
+        padding-left: 1rem;
+    }
+    .button-one {
+        margin-left: 3rem;
+    }
+    .section-two {
+        display: flex;
+        padding-top: 3rem;
+        height: 80rem;
+    }
+    .button-three {
+        margin-left: 1rem;
+    }
+}
